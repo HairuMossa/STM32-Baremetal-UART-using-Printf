@@ -1,0 +1,35 @@
+warning: in the working copy of 'Src/main.c', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/.settings/language.settings.xml b/.settings/language.settings.xml[m
+[1mindex 1891064..5e5972f 100644[m
+[1m--- a/.settings/language.settings.xml[m
+[1m+++ b/.settings/language.settings.xml[m
+[36m@@ -5,7 +5,7 @@[m
+ 			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>[m
+ 			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>[m
+ 			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>[m
+[31m-			<provider class="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" console="false" env-hash="-1122216355869606265" id="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" keep-relative-paths="false" name="MCU ARM GCC Built-in Compiler Settings" parameter="${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">[m
+[32m+[m			[32m<provider class="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" console="false" env-hash="-1823733486586441944" id="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" keep-relative-paths="false" name="MCU ARM GCC Built-in Compiler Settings" parameter="${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">[m
+ 				<language-scope id="org.eclipse.cdt.core.gcc"/>[m
+ 				<language-scope id="org.eclipse.cdt.core.g++"/>[m
+ 			</provider>[m
+[36m@@ -16,7 +16,7 @@[m
+ 			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>[m
+ 			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>[m
+ 			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>[m
+[31m-			<provider class="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" console="false" env-hash="-1122216355869606265" id="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" keep-relative-paths="false" name="MCU ARM GCC Built-in Compiler Settings" parameter="${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">[m
+[32m+[m			[32m<provider class="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" console="false" env-hash="-1823733486586441944" id="com.st.stm32cube.ide.mcu.toolchain.armnone.setup.CrossBuiltinSpecsDetector" keep-relative-paths="false" name="MCU ARM GCC Built-in Compiler Settings" parameter="${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">[m
+ 				<language-scope id="org.eclipse.cdt.core.gcc"/>[m
+ 				<language-scope id="org.eclipse.cdt.core.g++"/>[m
+ 			</provider>[m
+[1mdiff --git a/Src/main.c b/Src/main.c[m
+[1mindex 7bbd3e8..af7ae52 100644[m
+[1m--- a/Src/main.c[m
+[1m+++ b/Src/main.c[m
+[36m@@ -12,6 +12,7 @@[m
+ 	// the datasheet of the uC, Tx is at PA2 pin[m
+ #define GPIOAEN			1<<0[m
+ [m
+[32m+[m[32m// lets add a comment here![m
+ [m
+ [m
+ [m
