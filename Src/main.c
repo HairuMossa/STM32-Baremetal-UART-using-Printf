@@ -12,6 +12,7 @@
 	// the datasheet of the uC, Tx is at PA2 pin
 #define GPIOAEN			1<<0
 
+// lets add a comment here!
 
 
 
